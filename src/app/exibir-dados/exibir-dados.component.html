@@ -1,0 +1,11 @@
+<div class="content-image">
+    <div class="information">
+        <span class="info-item"> ID: {{photoItem.id}} </span>
+        <span class="info-item"> Titulo: {{photoItem.title}} </span>
+        <span class="info-item"> Album: {{photoItem.albumId}}</span>
+        <a class="info-item" [href]="photoItem.url" target="_blank" rel="noopener noreferrer">link</a>
+    </div>
+    <div class="photo">
+        <img [src]="photoItem.thumbnailUrl" alt="pic image">
+    </div>
+</div>

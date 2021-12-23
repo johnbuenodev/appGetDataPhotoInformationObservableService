@@ -6,6 +6,8 @@ export const environment = {
   production: false
 };
 
+export const URL_PHOTOS_ALBUM1_API = "https://jsonplaceholder.typicode.com/albums/1/photos";
+export const URL_PHOTO_API= "https://jsonplaceholder.typicode.com/photos/";
 /*
  * For easier debugging in development mode, you can import the following file
  * to ignore zone related error stack frames such as `zone.run`, `zoneDelegate.invokeTask`.

@@ -1,0 +1,42 @@
+:host {
+  
+  display: flex;
+  flex-direction: column;
+  margin: 2rem auto;
+  justify-content: center;
+  align-items: center;  
+
+  .content-image {
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: flex-start;
+    width: 300px;
+    box-sizing: border-box;
+    height: auto;
+    padding: 0.5rem 0.5rem 0.5rem 0.5rem;
+    border: skyblue 1px solid;
+    margin-bottom: 0.2rem;
+    cursor: pointer;
+
+    .information {
+        padding: 2px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+
+        .info-item {
+            margin: 2px 1px;
+            border-bottom: 1px solid skyblue;
+        }
+
+    }
+    .photo {
+     display: flex;
+     flex-direction: column;
+     padding: 2px;
+    }
+  } 
+
+}
